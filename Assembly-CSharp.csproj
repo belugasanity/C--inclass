@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D243EFEE-604E-C357-562C-E0C50AC9D95F}</ProjectGuid>
+    <ProjectGuid>{9456E406-5E2E-64A7-1CF9-70F474E3F1BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Box_Rotate.cs" />
+     <Compile Include="Assets\destroy.cs" />
+     <Compile Include="Assets\fire.cs" />
      <Compile Include="Assets\tankMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
