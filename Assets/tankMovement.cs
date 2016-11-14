@@ -2,11 +2,9 @@
 using System.Collections;
 
 public class tankMovement : MonoBehaviour {
-	private int score = 0;
 
 	public float moveSpeed;
 	public float turnSpeed;
-
 
 	// Use this for initialization
 	void Start () {
@@ -20,5 +18,9 @@ public class tankMovement : MonoBehaviour {
 
 		transform.Rotate(0, x, 0);
 		transform.Translate(0, 0, z);
+
+}
+	void OnTriggerEnter (Collider Coin){
+		Destroy(Coin.gameObject);
 	}
 }
