@@ -49,6 +49,7 @@
      <Compile Include="Assets\coin.cs" />
      <Compile Include="Assets\destroy.cs" />
      <Compile Include="Assets\fire.cs" />
+     <Compile Include="Assets\follow.cs" />
      <Compile Include="Assets\tankMovement.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
