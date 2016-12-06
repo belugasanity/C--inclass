@@ -6,7 +6,7 @@ public class destroy : MonoBehaviour {
 	public GameObject explosion;
 	
 	void OnCollisionEnter(Collision collision){
-		if(collision.gameObject.name == "Terrain"){
+		if(collision.gameObject.name == "Terrain" || collision.gameObject.tag=="Destructable"){
 			Instantiate(explosion,transform.position,transform.rotation);
 			Destroy (gameObject);
 		}

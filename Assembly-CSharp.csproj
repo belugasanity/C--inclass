@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Box_Rotate.cs" />
+     <Compile Include="Assets\Destroy_Crate.cs" />
      <Compile Include="Assets\coin.cs" />
      <Compile Include="Assets\destroy.cs" />
      <Compile Include="Assets\fire.cs" />
